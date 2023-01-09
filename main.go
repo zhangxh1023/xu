@@ -397,7 +397,6 @@ func encryptFileData(fileData []byte, filename string) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
-	fmt.Println(len(aesKey))
 	encryptAESKey, err := rsaEncrypt(aesKey)
 	if err != nil {
 		return nil, err
