@@ -1,3 +1,3 @@
-module whisper
+module xu
 
 go 1.19
